@@ -17,7 +17,6 @@ from models.review import Review
 
 class HBNBCommand(cmd.Cmd):
     """simple command processor"""
-    intro = 'Welcome to the hbnb console. Type help or ? to list commands.\n'
     prompt = '(hbnb) '
     Class = {"BaseModel", "User", "Place", "State", "City",
              "Amenity", "Review"}
