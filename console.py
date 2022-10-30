@@ -150,6 +150,11 @@ class HBNBCommand(cmd.Cmd):
                 HBNBCommand.do_all(self, classt[0] + " " + classt[1])
             elif rexp == "count":
                 HBNBCommand.count(self, classt[0])
+            elif rexp == "update":
+                pxer = classt[1][len(re.sub("[\(\[].*?[\)\]]", "", classt[1])) + 1:-1].split(",")
+                pxer1 = pxer[0].replace('"',"").strip()
+                l = pxer[1].replace('"',"").strip() + " " + pxer[2].replace('"',"").strip()
+                HBNBCommand.do_update(self, classt[0] + " " + pxer1 + " " + l)
             else:
                 print("***Unknown syntax")
 
