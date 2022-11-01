@@ -1,8 +1,8 @@
 # AirBnb Clone - The Console
 
 ## Authors
-* [Adonyas Getachew](Adonyas2000@gmail.com)
-* [Mintesnot Tsegaye]()
+* [Adonyas Getachew](adonyas2000@gmail.com)
+* [Mintesnot Tsegaye](mintesnottsegaye40@gmail.com)
 
 ## Table of Contents
 
